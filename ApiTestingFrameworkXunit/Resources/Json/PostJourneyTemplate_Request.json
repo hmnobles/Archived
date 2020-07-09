@@ -1,0 +1,145 @@
+{
+  "UpdatingActorId": "{updatingActorId}",
+  "ExpirationDate": "{expirationDate}",
+  "ValidStartDate": "{validStartDate}",
+  "Priority": "{journeyPriority}}",
+  "JourneyCategory": "{journeyCategory}",
+  "JourneyRule": {
+    "JourneyRuleId": "{journeyRuleId}}",
+    "JourneyRuleGuid": "{journeyRuleGuid}",
+    "Name": "{journeyRuleName}",
+    "Description": "{journeyRuleDescription}",
+    "JourneyCategoryId": "{journeyCategoryId}",
+    "IsMultipleAllowed": "{isMultipleAllowed}",
+    "IsEditable": "{isEditable}",
+    "TriggeringActions": [],
+    "JourneyContextId": "{{journeyContextId}",
+    "JourneyContextName": "{{journeyContextName}"
+  },
+  "JourneyTemplateId": "{journeyTemplateId}",
+  "JourneyConfigurationId": "{journeyConfigurationId}",
+  "Description": "{journeyTemplateDescription}",
+  "DisplayName": "{journeyTemplateDisplayName}}",
+  "Name": "{journeyTemplateName}",
+  "JourneyId": "{journeyId}",
+  "JourneyCategoryId": "{journeyCategoryId}",
+  "JourneyStartCardId": "{journeyStartCardId}",
+  "JourneyContextId": "{journeyContextId}",
+  "JourneyTemplateCards": [
+    {
+    	"CardTemplateId": "{cardTemplateId}",
+      "CardTemplateGuid": "{cardTemplateGuid}",
+      "JourneyContextId": "{journeyContextId}",
+      "CardName": "{cardName}",
+      "CardDescription": "{cardDescription}",
+      "CardTemplateType": "{cardTemplateType}",
+      "CardType": "{cardType}",
+      "CardStyle": "{cardStyle}",
+      "ContentCategory": "{contentCategory}",
+      "ContentSourceGuid": "{contentSourceGuid}",
+      "ValidStartDate": "{validStartDate}",
+      "ExpirationDate": "{expirationDate}",
+      "ExpiresInDays": "{expiresInDays}",
+      "ExpiresInViews": "{expiresInViews}",
+      "ExpiresFromSource": "{expiresFromSource}",
+      "CallToAction": "{callToAction}",
+      "IncentiveActionCategoryId": "{incentiveActionCategoryId}",
+      "RemoveAfterCallToActionTimes": "{removeAfterCallToActionTimes}",
+      "IsGenerated": "{isGenerated}",
+      "IsActive": "{journeyTemplateIsActive}",
+      "GroupId": "{groupId}",
+      "PlatformSupport": "{platformSupport}",
+      "DueDate": "{dueDate}",
+      "Components": [
+      			{
+
+                    "CardTemplateId": "{cardTemplateId}}",
+                    "CardTemplateGuid": "{cardTemplateGuid}",
+                    "CardComponent": 1,
+                    "CardComponentType": 1,
+                    "CardLanguage": 1,
+                    "Value": "{tileTitle}"
+                },
+                {
+                    "CardTemplateId": "{cardTemplateId}",
+                    "CardTemplateGuid": "{cardTemplateGuid}",
+                    "CardComponent": 5,
+                    "CardComponentType": 1,
+                    "CardLanguage": 1,
+                    "Value": "{tileDescription}"
+                },
+                {
+                    "CardTemplateId": "{cardTemplateId}",
+                    "CardTemplateGuid": null,
+                    "CardComponent": 6,
+                    "CardComponentType": 1,
+                    "CardLanguage": 1,
+                    "Value": "{actionLabel}"
+                },
+                {
+                    "CardTemplateId": "{cardTemplateId}",
+                    "CardTemplateGuid": null,
+                    "CardComponent": 7,
+                    "CardComponentType": 2,
+                    "CardLanguage": 1,
+                    "Value": "true"
+                },
+                {
+                    "CardTemplateId": 9187,
+                    "CardTemplateGuid": null,
+                    "CardComponent": 8,
+                    "CardComponentType": 1,
+                    "CardLanguage": 1,
+                    "Value": "{dismissLabel}"
+                },
+                {
+                    "CardTemplateId": "{cardTemplateId}",
+                    "CardTemplateGuid": null,
+                    "CardComponent": 9,
+                    "CardComponentType": 2,
+                    "CardLanguage": 1,
+                    "Value": "true"
+                },
+                {
+                    "CardTemplateId": "{cardTemplateId}",
+                    "CardTemplateGuid": null,
+                    "CardComponent": 10,
+                    "CardComponentType": 1,
+                    "CardLanguage": 1,
+                    "Value": "{iconImageUrl}"
+                },
+                {
+                    "CardTemplateId": "{cardTemplateId}",
+                    "CardTemplateGuid": null,
+                    "CardComponent": 12,
+                    "CardComponentType": 1,
+                    "CardLanguage": 1,
+                    "Value": "advanced-search"
+                },
+                {
+                    "CardTemplateId": 9187,
+                    "CardTemplateGuid": null,
+                    "CardComponent": 15,
+                    "CardComponentType": 1,
+                    "CardLanguage": 1,
+                    "Value": "{backgroundAltImageText}"
+                }
+
+],
+        "DisplayPriority": "{journeyTemplateDisplayPriority}",
+      "ClosingActionIds": [
+        "{closingActionIds}"
+      ],
+      "TagFilter": {
+      "ShowWhenHaveAnyOf": ["{showWhenHaveAnyOf"],
+      "ShowWhenHaveAllOf": ["{showWhenHaveAllOf"],
+      "ShowWhenDoesNotHaveAnyOf": ["{showWhenDoesNotHaveAnyOf}"],
+      "ShowWhenDoesNotHaveAllOf": ["{showWhenDoesNotHaveAnyOf"]
+    },
+    "ImageUrl": "{journeyTemplateImageUrl}",
+      "isDirty": "{journeyTemplateIsDirty}",
+      "IsSelected": "{journeyTempplateIsSelected}",
+      "DisplayOrder": "{journeyTemplateDisplayOrder}"
+    }
+  ],
+  "IsActive": "{journeyTemplateIsActive}"

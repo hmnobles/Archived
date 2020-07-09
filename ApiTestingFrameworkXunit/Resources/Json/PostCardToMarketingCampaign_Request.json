@@ -1,0 +1,138 @@
+{
+  "MarketingCampaignId": "{marketingCampaignId}",
+  "StartDate": "{startDate}",
+  "EndDate": "{endDate}",
+  "CardTemplate": {
+    "JourneyContextId": "{journeyContextId}",
+    "CardName": "{cardName}",
+    "CardDescription": "{cardDescription}",
+    "CardTemplateType": "{cardTemplateType}",
+    "CardType": "{cardType}",
+    "CardStyle": "{cardStyle}",
+    "ContentCategory": "{contentCategory}",
+    "ContentSourceGuid": "{contentSourceGuid}",
+    "ValidStartDate": "{validStartDate}",
+    "ExpirationDate": "{expirationDate}",
+    "ExpiresInDays": "{expiresInDays}",
+    "ExpiresInViews": "{expiresInViews}",
+    "ExpiresFromSource": "{expiresFromSource}",
+    "CallToAction": "{callToActionId}",
+    "IncentiveActionCategoryId": "{incentiveActionCategoryId}",
+    "RemoveAfterCallToActionTimes": "{removeAfterCallToActionTimes}",
+    "IsGenerated": "{isGenerated}",
+    "IsActive": "{isActive",
+    "GroupId": "{GroupId}",
+    "PlatformSupport": "{platformSupport}",
+    "DueDate": "{dueDate}",
+    "Components": [
+      {
+        "CardTemplateId": "{cardTemplateId}",
+        "CardTemplateGuid": null,
+        "CardComponent": 1,
+        "CardComponentType": 1,
+        "CardLanguage": 1,
+        "Value": "{tileTitle}"
+      },
+      {
+        "CardTemplateId": "{cardTemplateId}",
+        "CardTemplateGuid": null,
+        "CardComponent": 2,
+        "CardComponentType": 1,
+        "CardLanguage": 1,
+        "Value": "{tileDescription}"
+      },
+      {
+        "CardTemplateId": "{cardTemplateId}",
+        "CardTemplateGuid": null,
+        "CardComponent": 3,
+        "CardComponentType": 1,
+        "CardLanguage": 1,
+        "Value": "{alternateTileTitle}"
+      },
+      {
+        "CardTemplateId": "{cardTemplateId}",
+        "CardTemplateGuid": null,
+        "CardComponent": 4,
+        "CardComponentType": 1,
+        "CardLanguage": 1,
+        "Value": "{alternateTileDescription}"
+      },
+      {
+        "CardTemplateId": "{cardTemplateId}",
+        "CardTemplateGuid": null,
+        "CardComponent": 5,
+        "CardComponentType": 1,
+        "CardLanguage": 1,
+        "Value": "infoTextWithMarkup"
+      },
+      {
+        "CardTemplateId": "{cardTemplateId}",
+        "CardTemplateGuid": null,
+        "CardComponent": 6,
+        "CardComponentType": 1,
+        "CardLanguage": 1,
+        "Value": "{actionLabel}"
+      },
+      {
+        "CardTemplateId": "{cardTemplateId}",
+        "CardTemplateGuid": null,
+        "CardComponent": 7,
+        "CardComponentType": 2,
+        "CardLanguage": 1,
+        "Value": "true"
+      },
+      {
+        "CardTemplateId": "{cardTemplateId}",
+        "CardTemplateGuid": null,
+        "CardComponent": 8,
+        "CardComponentType": 1,
+        "CardLanguage": 1,
+        "Value": "{dismissLabel}"
+      },
+      {
+        "CardTemplateId": "{cardTemplateId}",
+        "CardTemplateGuid": null,
+        "CardComponent": 9,
+        "CardComponentType": 2,
+        "CardLanguage": 1,
+        "Value": "true"
+      },
+      {
+        "CardTemplateId": "{cardTemplateId}",
+        "CardTemplateGuid": null,
+        "CardComponent": 10,
+        "CardComponentType": 1,
+        "CardLanguage": 1,
+        "Value": "{iconImageUrl}"
+      },
+      {
+        "CardTemplateId": "{cardTemplateId}",
+        "CardTemplateGuid": null,
+        "CardComponent": 12,
+        "CardComponentType": 1,
+        "CardLanguage": 1,
+        "Value": "account-activity"
+      },
+      {
+        "CardTemplateId": "{cardTemplateId}",
+        "CardTemplateGuid": null,
+        "CardComponent": 15,
+        "CardComponentType": 1,
+        "CardLanguage": 1,
+        "Value": "{backgroundAltImageText}"
+      }
+    ],
+    "DisplayPriority": "{displayPriority}",
+    "ClosingActionIds": [
+      "{closingActionIds}"
+    ],
+    "TagFilter": {
+      "ShowWhenHaveAnyOf": ["{showWhenHaveAnyOf"],
+      "ShowWhenHaveAllOf": ["{showWhenHaveAllOf"],
+      "ShowWhenDoesNotHaveAnyOf": ["{showWhenDoesNotHaveAnyOf}"],
+      "ShowWhenDoesNotHaveAllOf": ["{showWhenDoesNotHaveAnyOf"]
+    },
+    "ImageUrl": "{cardTemplateImageUrl}",
+    "IsSelected": "{isSelected}"
+  }
+}

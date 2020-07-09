@@ -1,0 +1,8 @@
+//POST New Marketing Campaign
+{
+  "JourneyContext": {
+    "JourneyContextId": "{journeyContextId}"
+  },
+  "Name": "{marketingCampaignName}",
+  "Description": "{marketingCampaignDescription}"
+}

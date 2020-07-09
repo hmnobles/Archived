@@ -1,0 +1,118 @@
+{
+  "JourneyContextId": "{journeyContextId}",
+  "TagFilter": {
+    "ShowWhenHaveAnyOf": [],
+    "ShowWhenHaveAllOf": [],
+    "ShowWhenDoesNotHaveAnyOf": [],
+    "ShowWhenDoesNotHaveAllOf": []
+  },
+  "RemoveAfterCallToActionTimes": "{removeAfterCallToActionTimes}",
+  "CardTemplateId": "{cardTemplateId}",
+  "CardType": "{cardType}",
+  "CardStyle": "{cardStyle}",
+  "ContentCategory": "{contentCategory}",
+  "ExpiresFromSource": "{expiresFromSource}",
+  "CallToAction": "{callToAction}",
+  "CardTemplateType": "{cardTemplateType}",
+  "IsGenerated": "{isGenerated}",
+  "IsActive": "{isActive}",
+  "DisplayPriority": "{displayPriority}",
+  "Language": "{language}",
+  "PlatformSupport": "{platformSupport}",
+  "LaunchSsoProvider": "{launchSsoProvider}",
+  "Components": [
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardComponent": "1",
+      "CardComponentType": "{cardComponentType}",
+      "CardLanguage": "{cardLanguage}",
+      "Value": "{cardTitle}"
+    },
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardComponent": "5",
+      "CardComponentType": "{cardComponentType}",
+      "CardLanguage": "{cardLanguage}",
+      "Value": "{cardDescription}"
+    },
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardComponent": "15",
+      "CardComponentType": "{cardComponentType}",
+      "CardLanguage": "{cardLanguage}",
+      "Value": "{cardImageAltText}"
+    },
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardComponent": "6",
+      "CardComponentType": "{cardComponentType}",
+      "CardLanguage": "{cardLanguage}",
+      "Value": "{cardActionLabel}"
+    },
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardComponent": "8",
+      "CardComponentType": "{cardComponentType}",
+      "CardLanguage": "{cardLanguage}",
+      "Value": "{cardDismissLabel}"
+    },
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardComponent": "10",
+      "CardComponentType": "{cardComponentType}",
+      "CardLanguage": "{cardLanguage}",
+      "Value": "{cardImageUrl}"
+    },
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardComponent": "12",
+      "CardComponentType": "{cardComponentType}",
+      "CardLanguage": "{cardLanguage}",
+      "Value": ""
+    },
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardComponent": "7",
+      "CardComponentType": "{cardComponentType}",
+      "CardLanguage": "{cardLanguage}",
+      "Value": "{showAction}"
+    },
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardComponent": "9",
+      "CardComponentType": "{cardComponentType}",
+      "CardLanguage": "{cardLanguage}",
+      "Value": "{cardDisplayDismissButton}"
+    }
+  ],
+  "DismissActionText": "{dismissActionText}",
+  "ActionText": "{actionText}",
+  "DismissActionTextSpanish": "{dismissActionSpanishText}",
+  "ActionTextSpanish": "{actionTextSpanish}",
+  "ShowDismissActionFlag": "{showDismissActionFlag}",
+  "ShowDismissActionFlagS": "{showDismissActionFlagS}",
+  "ImageUrl": "{imageUrl}",
+  "SpanishImageUrl": "{spanishImageUrl}",
+  "IconUrl": "{iconUrl}",
+  "SpanishIconUrl": "{spanishIconUrl}",
+  "ActionTarget": "{actionTarget}",
+  "ClosingActionIds": [
+    "{closingActionIds}"
+  ],
+  "CustomCallToAction": "{customCallToAction}",
+  "CustomContentCategory": "{customContentCategory}",
+  "MoreInfoTextE": "{moreInfoTextE}",
+  "JourneyContextName": "{journeyContextName}",
+  "CardName": "{cardName}",
+  "CardDescription": "{cardDescription}",
+  "Title": "{cardTitle}",
+  "MoreInfoText": "{moreInfoText}",
+  "AlternateDescription": "{alternateDescription}",
+  "MediaAlternativeDescriptionText": "{mediaAlternativeDescriptionText}",
+  "CallToActionData": "{callToActionData}",
+  "ContentSourceGuid": "{contentSourceGuid}",
+  "IncentiveActionCategoryId": "{incentiveActionCategoryId}",
+  "CardComponentType": "{cardComponentType}",
+  "ActionTargetField": "{actionTargetField}",
+  "DueDate": "{dueDate}",
+}

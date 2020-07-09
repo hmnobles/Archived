@@ -1,0 +1,7 @@
+{
+  "Description": "{marketingCampaignDescription}",
+  "JourneyContext": { "JourneyContextId": "{journeyContextId}",
+  "MarketingCampaignGuid": "{marketingCampaignGuid}",
+  "MarketingCampaignId": "{marketingCampaignId}",
+  "Name": "{marketingCampaignName}"
+}

@@ -1,0 +1,165 @@
+{
+  "ExpirationDate": "{journeyExpirationDate}",
+  "ValidStartDate": "{journeyValidStartDate}",
+  "Priority": "{journeyPriority}",
+  "JourneyCategory": "{journeyCategory}",
+  "JourneyRule": {
+    "JourneyRuleId": "{journeyRuleId}",
+    "JourneyRuleGuid": "{journeyRuleGuid}",
+    "Name": "{journeyRuleName}",
+    "Description": "{journeyRuleDescription}",
+    "JourneyCategoryId": "{journeyCateogryId}",
+    "IsMultipleAllowed": "{isMultipleAllowed}",
+    "IsEditable": "{isEditable}",
+    "TriggeringActions": [ "{trigerringActions}" ],
+    "JourneyContextId": "{journeyContextId}",
+    "JourneyContextName": "{journeyContextName}"
+  },
+  "JourneyTemplateId": "{journeyTemplateId}",
+  "JourneyConfigurationId": "{journeyConfigurationId}",
+  "Description": "{journeyName}",
+  "DisplayName": "{journeyDisplayName}",
+  "Name": "{journeyTemplateName}",
+  "JourneyCategoryId": "{journeyCategoryId}",
+  "JourneyStartCardId": "{journeyStartCardId}",
+  "JourneyContextId": "{journeyContextId}",
+  "JourneyTemplateCards": [
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardTemplateGuid": "{cardTemplateGuid",
+      "JourneyContextId": "{journeyContextId}",
+      "CardName": "{cardTemplateName}",
+      "CardDescription": "{cardTemplateDescription}",
+      "CardTemplateType": "{cardTemplateType}",
+      "CardType": "{cardType}",
+      "CardStyle": "{cardStyle}",
+      "ContentCategory": "{contentCategory}",
+      "ContentSourceGuid": "{contentSourceGuid}",
+      "ValidStartDate": "{validStartDate}",
+      "ExpirationDate": "{expirationDate}",
+      "ExpiresInDays": "{expiresInDays}",
+      "ExpiresInViews": "{expiresInViews}",
+      "ExpiresFromSource": "{expiresFromSource}",
+      "CallToAction": "{callToAtionId}",
+      "IncentiveActionCategoryId": "{incentiveActionCategoryId}",
+      "RemoveAfterCallToActionTimes": "{removeAfterCallToActionTimes}",
+      "IsGenerated": "{templateCardsIsGenerated}",
+      "IsActive": "templateCardsIsActive"
+    }
+  ],
+  "GroupId": "{groupId}",
+  "PlatformSupport": "{platformSupport}",
+  "DueDate": "{dueDate}",
+  "Components": [
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardTemplateGuid": null,
+      "CardComponent": 1,
+      "CardComponentType": 1,
+      "CardLanguage": 1,
+      "Value": "tileTitle"
+    },
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardTemplateGuid": null,
+      "CardComponent": 2,
+      "CardComponentType": 1,
+      "CardLanguage": 1,
+      "Value": "{tileDescription}"
+    },
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardTemplateGuid": null,
+      "CardComponent": 3,
+      "CardComponentType": 1,
+      "CardLanguage": 1,
+      "Value": "{altTileTItle}"
+    },
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardTemplateGuid": null,
+      "CardComponent": 4,
+      "CardComponentType": 1,
+      "CardLanguage": 1,
+      "Value": "{altTileDescription}"
+    },
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardTemplateGuid": null,
+      "CardComponent": 5,
+      "CardComponentType": 1,
+      "CardLanguage": 1,
+      "Value": "{infoTextWithMarkup}"
+    },
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardTemplateGuid": null,
+      "CardComponent": 6,
+      "CardComponentType": 1,
+      "CardLanguage": 1,
+      "Value": "{actionLabel}"
+    },
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardTemplateGuid": null,
+      "CardComponent": 7,
+      "CardComponentType": 2,
+      "CardLanguage": 1,
+      "Value": "true"
+    },
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardTemplateGuid": null,
+      "CardComponent": 8,
+      "CardComponentType": 1,
+      "CardLanguage": 1,
+      "Value": "{dismissLabel}"
+    },
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardTemplateGuid": null,
+      "CardComponent": 9,
+      "CardComponentType": 2,
+      "CardLanguage": 1,
+      "Value": "true"
+    },
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardTemplateGuid": null,
+      "CardComponent": 10,
+      "CardComponentType": 1,
+      "CardLanguage": 1,
+      "Value": "cardIconImageUrl"
+    },
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardTemplateGuid": null,
+      "CardComponent": 12,
+      "CardComponentType": 1,
+      "CardLanguage": 1,
+      "Value": "coach-chat"
+    },
+    {
+      "CardTemplateId": "{cardTemplateId}",
+      "CardTemplateGuid": null,
+      "CardComponent": 15,
+      "CardComponentType": 1,
+      "CardLanguage": 1,
+      "Value": "{backgroundAltText}"
+    }
+  ],
+  "DisplayPriority": "{journeyDisplayPriority}",
+  "ClosingActionIds": [ "{closingActionIds}" ],
+  "TagFilter": {
+    "ShowWhenHaveAnyOf": [ "showWhenHaveAnyOf}" ],
+    "ShowWhenHaveAllOf": [ "{shownWhenAllOf}" ],
+    "ShowWhenDoesNotHaveAnyOf": [ "{shownWhenDoesNotHaveAnyOf}" ],
+    "ShowWhenDoesNotHaveAllOf": [ "{shownWhenDoesNotHaveAllOf}" ]
+  },
+  "ImageUrl": "{journeyImageUrl}",
+  "isDirty": "{isDirty}",
+  "IsSelected": "{isSelected}",
+  "DisplayOrder": "{displayOrder}",
+  "IsActive": "{isActive}"
+};
+

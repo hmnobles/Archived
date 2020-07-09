@@ -1,0 +1,11 @@
+{
+  "MarketingCampaignId": "{marketingCampaignId}",
+  "JourneyContext": {
+    "JourneyContextId": "{journeyContextId}"
+  },
+  "RowUpdatedBy": "{rowUpdatedBy}",
+  "Name": "{marketingCampaignName}",
+  "Description": "{marketingCampaignDescription}",
+  "RowInsertedBy": "rowInsertedBy",
+  "MarketingCampaignGuid": "{marketingCampaignGuid}"
+}
