@@ -19,7 +19,7 @@ namespace ApiTestingFrameworkXunit.Test
     {
         private readonly ITestOutputHelper output;
         private Common.Interfaces.IHttpClientBuilder _clientBuilder;
-        const string BaseUrl = "https://qa2012-services2.onlifehealth.com/engagementhub/api";
+        const string BaseUrl = "redacted";
         public static JourneyContext journeyContext = new JourneyContext();
         //public static JourneyContextRoot journeyContextRoot = new JourneyContextRoot();
         public static MarketingCampaign marketingCampaign = new MarketingCampaign();
